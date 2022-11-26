@@ -1,0 +1,414 @@
+body {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px !important;
+
+}
+
+
+
+.c_nav {
+  background-color: #080808;
+
+}
+
+.c_logo_span span {
+  font-size: 22px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.navbar-brand img {
+  width: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.nav_c {
+  background-color: aliceblue !important;
+  ;
+}
+
+.c_menu a {
+  color: aliceblue !important;
+  font-weight: bold;
+}
+
+.c_menu a:hover {
+
+  color: yellow !important;
+}
+
+.c_a.active {
+  color: yellow !important;
+}
+
+
+.bubbles {
+  display: inline-block;
+  font-family: arial;
+  position: relative;
+
+}
+
+
+.individual-bubble {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+/* banner starts */
+.b_img img {
+  width: 100%;
+}
+
+.banner {
+
+  padding: 100px 0;
+  background-color: rgb(240, 197, 16);
+}
+
+/* banner ends */
+
+
+/* about starts */
+.about {
+  background-image: url("../images/slider-bg.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  image-orientation: flip;
+  padding: 100px 0;
+  background-color: #edf2f4;
+}
+
+.c_mrg {
+  margin-top: 20px;
+}
+
+.abt_h {
+  font-size: 57px;
+  text-transform: uppercase;
+}
+
+.abt_p {
+  padding: 19px !important;
+  font-size: 20px;
+}
+
+/* about ends */
+
+/* services starts */
+.services {
+  padding: 100px 0;
+  background-color: rgb(240, 197, 16);
+
+}
+
+.flip-card,
+.flip-card-click {
+  display: inline-block;
+  background-color: transparent;
+  width: 280px;
+  height: 300px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner,
+.flip-card-click:focus .flip-card-inner,
+.flip-card-click:active .flip-card-inner,
+.flip-card-click.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner:focus {
+  outline: 1px solid #03c23c;
+  cursor: pointer;
+}
+
+.flip-card-inner:hover {
+  outline: 1px solid #0336c2;
+  cursor: pointer;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front h2 {
+  color: white;
+
+  font-weight: 500;
+  padding: 10px;
+}
+
+.flip-card-front p,
+.flip-card-back p {
+  padding: 10px;
+
+  color: white;
+}
+
+.flip-card-front {
+  background-color: #edf2f4;
+}
+
+.flip-card-back {
+  background-color: #008183;
+  transform: rotateY(180deg);
+}
+
+.srvc_item {}
+
+.srv_h {
+  margin-bottom: 20px;
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #edf2f4;
+}
+
+.con_h {
+  margin-bottom: 20px;
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #edf2f4;
+}
+
+.srvc_h2 {
+  font-size: 19px !important;
+  color: #080808 !important;
+}
+
+.srvc_p {
+  font-size: 14px;
+}
+
+/* services ends */
+
+/* features starts */
+
+
+
+.features {
+  background-image: url("../images/slider-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  background-color: #edf2f4;
+}
+
+.fea_h {
+  margin-bottom: 20px;
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #080808;
+}
+
+.c_carousel {
+  padding-bottom: 100px;
+}
+
+.jR3DCarouselGalleryCustomeTemplate .captions {
+  position: relative;
+  padding: 4px 0;
+  bottom: 27px;
+  background: rgb(240, 197, 16);
+  display: block
+}
+
+.jR3DCarouselGalleryCustomeTemplate a {
+  text-decoration: none;
+}
+
+.f_p {
+  margin-bottom: 39px !important;
+}
+
+.f_h2 {
+  font-size: 25px;
+
+}
+
+/* features ends */
+
+/* contact us */
+
+.contact {
+  padding: 100px 0;
+  background: rgb(240, 197, 16);
+}
+
+.con_h {
+  margin-bottom: 20px;
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #edf2f4;
+}
+
+/* ///// inputs /////*/
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus~span,
+textarea:focus~span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  float: right;
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
+    0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+    0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+
+
+input[type=checkbox]+label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked+label {
+  color: #f00;
+  font-style: normal;
+}
+
+/* contact us ends */
+
+/* footer starts */
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+/* footer starts ends */
